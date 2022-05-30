@@ -1,0 +1,42 @@
+#!/bin/bash
+#PBS -N makeCaps_gld422
+#PBS -l storage=scratch/q97
+#PBS -l ncpus=48
+#PBS -l mem=190GB
+#PBS -q express
+#PBS -P v05
+#PBS -l walltime=01:00:00
+#PBS -r y
+#PBS -m bae
+#PBS -M omer@uow.edu.au
+#PBS -l wd
+#PBS -j oe
+
+# Set up job environment:
+module load python2
+#module load parallel/20191022
+
+#change the working directory (default is home directory)
+echo Working directory is $PBS_O_WORKDIR
+cd $PBS_O_WORKDIR
+
+# Write out some information on the job
+echo Running on host `hostname`
+echo Time is `date`
+
+### Define number of processors
+NPROCS=`wc -l < $PBS_NODEFILE`
+echo This job has allocated $NPROCS cpus
+
+# Tell me which nodes it is run on
+echo " "
+echo This jobs runs on the following processors:
+echo `cat $PBS_NODEFILE`
+echo " "
+
+# 
+# Run the parallel job
+#
+
+#parallel -a commands.batch
+make_caps.sh
