@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<VTKFile type="UnstructuredGrid" version="0.1" byte_order="LittleEndian" compressor="vtkZLibDataCompressor">
+<!--This file was created by meshio v5.3.4-->
+<UnstructuredGrid>
+<Piece NumberOfPoints="40" NumberOfCells="5">
+<Points>
+<DataArray type="Float64" Name="Points" NumberOfComponents="3" format="binary">
+AQAAAACAAADAAwAAPwMAAA==eJxF0GlMkmEcAPC20kiz1HXIpFo6yxriUWbY9F9kl4Vbx8xVHmsmC8OWZeUyoIwEI3PGWscsFAKiIhV4RQ2f7Fh5dAirEMHokIVStk7tmD1ffP36+/hTMrJDKoMGgfghLG9pdaG6PbOK5ZxmpEkZ0nHXDIJmaFdw295x/7RMGhHWbQR7/+PSZywt+j4QJNPPE6GB1v5ildoI5UMc7aOOcdenbJphpQ5CVcWw+/UDF+q6G5diTm1EXEs+38weBHYyTfCgYNzDiiSdHa+NsP7fSK4lVYuSOnZOjK09iRZxFYdZOiOcSl3o/80y7mk0y5wApgfcfl+2TYEeZBTOy3Mn9sEpk4A/NccDQbJHW57IbaRzcy51vtpkgF4Ht8iqV6CHS6imudEasG3ona2MMoDopdTJi1OSfuxbQMnGaR64KLKdTZrRg6RlCe1ooA+exh9to8R7IPxM4HPKERvpyVnnObzFBiitPVjIq1KgJOaIvKtFAxfOHbiw398A67rXJscGKklvqcg55xPjBTurgSLb4USy8pvusL9mZK+JfbE70wuF8718/Q0H6evT2npC6wmIPJEet+izCmlXSEwf/5ahmEIhdEsJeHelQn7jmJp0QhBX8JbphaWJT7bacp2oIfqwJd/VjK5t65WmcbxAEZu8TXoH6VTtO4V/EwE839/pjJ8qFLlgeFW6UIToeZEZBhkBv2S+q12latJrrzdNLcf/1gTxdhr+L6CnCuOZfeAubhVL8H9WlnidDf+PuUnWaU1kGyCkn8l04f8Ic03ewygN0OYy/CgMAziyrcHH8f+Yr63Ore3A/4V/qCVb8X9wQGhbkKcPqLxbk8X4/8xIZU0o/h9znTmdacX/iscrT5Tg/yK/ksuHmjWw/AOR9hL/39+ta2fh/zGPSaib0BXtBd1pWcSbXU6UOYlt1febkbyl0UbH/z6O6uHRmw7S2e3Zt7/UEbD8/ezfo0MqxJ+oZP0cKEML6feWKPD/16urNwuOq0mvbt338Rr+tx+x+NI4TjSBL/F8b29G+fTeqkD8HxIlYYwaHaSHm2dOt5sIuG3mZYz+UqHLsTVlmQUiVN8Z/kmA/+/Qi3zqRGrS/wMgYvvi
+</DataArray>
+</Points>
+<Cells>
+<DataArray type="Float64" Name="connectivity" format="binary">
+AQAAAACAAABAAQAAYAAAAA==eJxNxzsOglAURdFbWlpQUFgYYwwxxAiKH/zw8E2MITsEC1bhadbZEf/7Dk6aWXDJgiVXXHPDLXesuGfNA49s2PLEMzteeOWNd/Z88MkX3xyYZifGqBkfzcg6px+BrRPM
+</DataArray>
+<DataArray type="Float64" Name="offsets" format="binary">
+AQAAAACAAAAoAAAAGgAAAA==eJxjYAABBQcwxWAApS2gtAOUdnEAACWAAk0=
+</DataArray>
+<DataArray type="Int64" Name="types" format="binary">
+AQAAAACAAAAoAAAADgAAAA==eJzjYYAAHgI0AAXIAD0=
+</DataArray>
+</Cells>
+</Piece>
+</UnstructuredGrid>
+</VTKFile>

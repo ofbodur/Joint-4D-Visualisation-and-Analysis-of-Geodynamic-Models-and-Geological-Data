@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<VTKFile type="UnstructuredGrid" version="0.1" byte_order="LittleEndian" compressor="vtkZLibDataCompressor">
+<!--This file was created by meshio v5.3.4-->
+<UnstructuredGrid>
+<Piece NumberOfPoints="40" NumberOfCells="40">
+<Points>
+<DataArray type="Float64" Name="Points" NumberOfComponents="3" format="binary">
+AQAAAACAAADAAwAAhAMAAA==eJx10Y1T0wUcx/EecDBALI+idQN0oMNpjgQf4oSveaQTvCVLPQo1Oh5iKJUPO4HBhjypNJRyQk2RI4jlcjJnJJ7Al5Q4JHSsMcZ+sjF+srnfxihah3ccUvsH+Afe9/rc57LLy81rdACvckF2+hyBT15kv1ORToKi9Myh7tY/wZBSlfS5/1344crZRfXJGdgcxJ14JHQCbKGJWuYm0SzLWBVaPQItx1P+qLnhAOowI8FUSeAKxZ2XmLtJSFWLg1mXHHBvNrIyCgl8taCMuy+NBO2Gf1RBEge8mP8mht5LYNvWN3Oe5JNA7dS5Un2e+BJRR4PPoyXHcxQ+T4FUmrKyZQokZYLvrQNTuEVWxnX0m3Gpfnfe4dvktnEY/mI6vMBixC65s37xgguX6hzh/OyN8qfAslcSIWdZsWI8iDcdQcC5VOP2WhoFzR1numbZVmTP6AULbxMwsiGUrW4loVDUIypM68X6R7+H3GqnMPjd2gemcQIOJCSKjMWjuDFQpWENuLD9t6aSWT8KZLlTVRxfR357NCaYRYDtYaRb7LiG8dLcnXTpGIxoj85HyzzobROqhF02SDxS+Z+IqUee932Ow06hPjJRDloSipT9+axoCx50TdZmSe3gTfYYWC+TkLRDyV798DGm29hb8z70ebTzk50r3UC72l4a/JoVA5t7QjdGDcP97R8PJjPdELhftqfgmRXbJGHViowhwIDlc2/59rbuocpHfU7hxfsXzEwCnIOJa9dpbfDj7nVfR0Tp8eSv3Tqhm0LG0IlnpSoS1r9x4AOXnwVjv/R3/1RnB/am2b5PY+xwJ5xZNRxux01qrrjDNIp9/y4TmNUkHE2qudocYsF+saWuuMYO26IfZJ1/rsFdIdqJ6gUT3GxIjhU1eDAu2nBaKXfAnMcoOTRA4DJ+kd/re0nQZXJKr9PcwKDWOuNzrJjA4U9VKHWwhr8YE1CnwSzXR2ZSNQbZ9LOfiE55sDBjn6C+l4QsBoMfsMKCabw4Pb3YDsmnnnemKhygtAUtnxATaDy468rTTBLKAmTFuX8bYJVHdJcW2QRS/bFYfvYMVGd2rr/VpsHGi7Hlr/wyBoJv1br0Ex58/J72K2ePBvPjwsw9HWPQuePYjb7jS/9oWk1bc++mDfZPy7yGzXp0mp8OVrkodDd+Fsb7joTr5qIhLt2CJeX1TX9dsy/p+R/Ca/29
+</DataArray>
+</Points>
+<Cells>
+<DataArray type="Float64" Name="connectivity" format="binary">
+AQAAAACAAABAAQAAYAAAAA==eJxNxzsOglAURdFbWlpQUFgYYwwxxAiKH/zw8E2MITsEC1bhadbZEf/7Dk6aWXDJgiVXXHPDLXesuGfNA49s2PLEMzteeOWNd/Z88MkX3xyYZifGqBkfzcg6px+BrRPM
+</DataArray>
+<DataArray type="Float64" Name="offsets" format="binary">
+AQAAAACAAABAAQAAYQAAAA==eJwtxzkOglAUQNFXUlpYWFgYQ4wxxDiggIp8h4WxZJdAzD+3ObkR/35D5FKm4IxzLrjkimuW3HDLHSvueeCRJ55Z88IrG7bseOOdD/Z8cmDKjoyXZ7w94+MZ3zQBINwUUA==
+</DataArray>
+<DataArray type="Int64" Name="types" format="binary">
+AQAAAACAAABAAQAAEAAAAA==eJxjZIAAxlGaLBoAGuAAKQ==
+</DataArray>
+</Cells>
+</Piece>
+</UnstructuredGrid>
+</VTKFile>

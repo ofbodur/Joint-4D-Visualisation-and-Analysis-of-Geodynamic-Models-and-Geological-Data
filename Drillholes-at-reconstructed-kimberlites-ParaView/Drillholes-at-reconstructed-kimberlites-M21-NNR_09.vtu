@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<VTKFile type="UnstructuredGrid" version="0.1" byte_order="LittleEndian" compressor="vtkZLibDataCompressor">
+<!--This file was created by meshio v5.3.4-->
+<UnstructuredGrid>
+<Piece NumberOfPoints="8" NumberOfCells="1">
+<Points>
+<DataArray type="Float64" Name="Points" NumberOfComponents="3" format="binary">
+AQAAAACAAADAAAAAtQAAAA==eJy7ZC/BviX59f5jtfvO/tC/vb+vzHvSz3uX9n/4PclqlcXr/Wu3+x45dgshrp7sNPXdsa3798UXMs/3WLZ/w96KgH7DeftXnKm8FPNy636Lf4Z2v/YvhYsrtiWyz619vb99hdC9DZ6390v1NiyKlL+0P55RqSUr6PX+Twe+ZCh8RYg/O7sls+P21v1fjbXaN8cu2z9h3dkLX//N2b/lopSl+L+t+xcEl9b1XlkKFwcAFIFy7g==
+</DataArray>
+</Points>
+<Cells>
+<DataArray type="Float64" Name="connectivity" format="binary">
+AQAAAACAAABAAAAAHgAAAA==eJxjYEAGH+yhDAcIxQGlBaC0CJSWgNIyDgBf7wMQ
+</DataArray>
+<DataArray type="Float64" Name="offsets" format="binary">
+AQAAAACAAAAIAAAADQAAAA==eJxjYAABBQcAAIgAYQ==
+</DataArray>
+<DataArray type="Int64" Name="types" format="binary">
+AQAAAACAAAAIAAAACwAAAA==eJzjYYAAAABoAA0=
+</DataArray>
+</Cells>
+</Piece>
+</UnstructuredGrid>
+</VTKFile>
