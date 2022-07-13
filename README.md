@@ -15,3 +15,5 @@ Dr Ömer F. Bodur
 University of Wollongong
 
 Email: omer@uow.edu.au
+
+Flament, N., Bodur, Ö. F., Williams, S. E. and Merdith, A. S.: Assembly of the basal mantle structure beneath Africa, Nature, 603(7903), 846–851, 2022.
