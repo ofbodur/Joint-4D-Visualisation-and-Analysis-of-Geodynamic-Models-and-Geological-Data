@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<VTKFile type="PUnstructuredGrid" version="0.1" byte_order="LittleEndian">
+  <PUnstructuredGrid GhostLevel="0">
+    <PPoints>
+      <PDataArray type="Float32" NumberOfComponents="3" Name="Points"/>
+    </PPoints>
+	
+	
+	
+	
+		<!-- <PDataArray type="Float32" NumberOfComponents="6" Name="Stress"/> -->
+	
+		<PPointData Scalars="Composition" Vectors="NonDimVelocity">
+	    <!-- <PDataArray type="Float32" NumberOfComponents="1" Name="Viscosity(Pas)"/> -->
+        <PDataArray type="Float32" NumberOfComponents="3" Name="NonDimVelocity"/>
+        <!-- <PDataArray type="Float32" NumberOfComponents="1" Name="Temperature(K)"/> -->
+        <PDataArray type="Float32" NumberOfComponents="1" Name="NonDimTemperature"/>
+        <PDataArray type="Float32" NumberOfComponents="1" Name="NonDimViscosity"/>
+        <PDataArray type="Float32" NumberOfComponents="1" Name="NonDimRadialVelocity"/>
+        <PDataArray type="Float32" NumberOfComponents="1" Name="NonDim_Vrms_radial"/>
+        <PDataArray type="Float32" NumberOfComponents="1" Name="NonDim_Vrms_horiz"/>
+        <PDataArray type="Float32" NumberOfComponents="1" Name="Comp_avg_1"/>
+        <PDataArray type="Float32" NumberOfComponents="1" Name="Comp_avg_2"/>
+		<PDataArray type="Float32" NumberOfComponents="1" Name="Comp_avg_3"/>
+		<PDataArray type="Float32" NumberOfComponents="1" Name="Comp_avg_4"/>
+		<PDataArray type="Float32" NumberOfComponents="1" Name="Comp_avg_5"/>
+        <!-- <PDataArray type="Float32" NumberOfComponents="1" Name="Composition"/> -->
+		<!-- <PDataArray type="Float32" NumberOfComponents="1" Name="Vr(cm/yr)"/> -->
+		<PDataArray type="Float32" NumberOfComponents="1" Name="Radius(km)"/>
+		<PDataArray type="Float32" NumberOfComponents="1" Name="NonDimRadius"/>
+		<PDataArray type="Float32" NumberOfComponents="1" Name="Depth(km)"/>
+		<PDataArray type="Float32" NumberOfComponents="1" Name="NonDimDepth"/>
+		<!-- <PDataArray type="Float32" NumberOfComponents="1" Name="Temperature_Anomaly(K)"/> -->
+		<PDataArray type="Float32" NumberOfComponents="1" Name="NonDimTemperature_Anomaly"/>
+		<!-- <PDataArray type="Float32" NumberOfComponents="1" Name="Radial_Heat_Advection(mK/yr)"/> -->
+		<!-- <PDataArray type="Float32" NumberOfComponents="1" Name="Horiz_Avg_Temp(K)"/> -->
+		<PDataArray type="Float32" NumberOfComponents="1" Name="NonDimHorizontal_Av"/>
+		<PDataArray type="Float32" NumberOfComponents="1" Name="Hot_Rising_Anomalies"/>
+		<PDataArray type="Float32" NumberOfComponents="1" Name="Hot_Sinking_Anomalies"/>
+		<PDataArray type="Float32" NumberOfComponents="1" Name="Cold_Rising_Anomalies"/>
+		<PDataArray type="Float32" NumberOfComponents="1" Name="Cold_Sinking_Anomalies"/>
+		<PDataArray type="Float32" NumberOfComponents="1" Name="LLSVP"/>
+        <PDataArray type="Float32" NumberOfComponents="4" Name="Composition"/>
+		
+    </PPointData>		
+	<Piece Source="/Volumes/Accelsior4M2/gld422/Codes_and_Vtks/Vtks_Opt/gld422.opt00.0.vtu"/>
+    <Piece Source="/Volumes/Accelsior4M2/gld422/Codes_and_Vtks/Vtks_Opt/gld422.opt01.0.vtu"/>
+    <Piece Source="/Volumes/Accelsior4M2/gld422/Codes_and_Vtks/Vtks_Opt/gld422.opt02.0.vtu"/>
+    <Piece Source="/Volumes/Accelsior4M2/gld422/Codes_and_Vtks/Vtks_Opt/gld422.opt03.0.vtu"/>
+    <Piece Source="/Volumes/Accelsior4M2/gld422/Codes_and_Vtks/Vtks_Opt/gld422.opt04.0.vtu"/>
+    <Piece Source="/Volumes/Accelsior4M2/gld422/Codes_and_Vtks/Vtks_Opt/gld422.opt05.0.vtu"/>
+    <Piece Source="/Volumes/Accelsior4M2/gld422/Codes_and_Vtks/Vtks_Opt/gld422.opt06.0.vtu"/>
+    <Piece Source="/Volumes/Accelsior4M2/gld422/Codes_and_Vtks/Vtks_Opt/gld422.opt07.0.vtu"/>
+    <Piece Source="/Volumes/Accelsior4M2/gld422/Codes_and_Vtks/Vtks_Opt/gld422.opt08.0.vtu"/>
+    <Piece Source="/Volumes/Accelsior4M2/gld422/Codes_and_Vtks/Vtks_Opt/gld422.opt09.0.vtu"/> 
+    <Piece Source="/Volumes/Accelsior4M2/gld422/Codes_and_Vtks/Vtks_Opt/gld422.opt10.0.vtu"/>
+    <Piece Source="/Volumes/Accelsior4M2/gld422/Codes_and_Vtks/Vtks_Opt/gld422.opt11.0.vtu"/>
+	<PCells> 
+	  <PDataArray type="Int64" Name="connectivity"/> 
+	  <PDataArray type="Int64" Name="offsets"/>
+	  <PDataArray type="UInt8" Name="types"/>
+	</PCells> 
+    <PCellData>
+		
+         <!-- <PDataArray type="Float32"  NumberOfComponents="1" Name="temperature"/> -->
+		 
+         <!-- <PDataArray type="Float32" Name="viscosity"/> -->
+     <!-- <PDataArray type="Float32" Name="velocity" NumberOfComponents="3"/> -->
+	  <!-- <PDataArray type="Float32" Name="stress" NumberOfComponents="6"/> -->
+    </PCellData>
+  </PUnstructuredGrid>
+</VTKFile>
+
+
+
