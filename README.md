@@ -10,7 +10,7 @@ It includes Python (3.8) and shell scripts, each referenced to the article in re
 
 I always appreciate feedback to improve this repository.
 
-Dr. Ömer F. Bodur
+Dr. Ömer F. Bodur,
 School of Earth Sciences,
 Zhejiang University
 
